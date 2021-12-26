@@ -1,6 +1,6 @@
 public class TelephoneNumChecker {
+    private boolean numChecker = true;
     private String telNumber = "";
-    private String checkNumber = "";
     public void setTelNumber(String telNumber){
         this.telNumber = telNumber;
     }
@@ -9,8 +9,18 @@ public class TelephoneNumChecker {
         return this.telNumber;
     }
 
-    public void telNumberChecker(){
-        this.checkNumber = getTelNumber().substring(0, 3);
+    public boolean getNumChecker() {
+        return numChecker;
+    }
 
+    public void setNumChecker(boolean numChecker) {
+        this.numChecker = numChecker;
+    }
+
+    public boolean telAreaNumberChecker(){
+        while (this.numChecker){
+
+        }
+        return this.numChecker;
     }
 }

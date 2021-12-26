@@ -7,14 +7,6 @@ public class Hand {
         return callNumber;
     }
 
-    public void raiseHandset(){
-
-    }
-
-    public void putDownHandset(){
-
-    }
-
     public void pressTelButtons(String number){
         TelephoneButtons telButtons = new TelephoneButtons();
         for(int i=0; i<number.length(); i++){
@@ -67,6 +59,20 @@ public class Hand {
                 case '9':{
                     System.out.println("Press : " + telButtons.getTelButtonNine());
                     callNumber += telButtons.getTelButtonNine();
+                    break;
+                }
+                case '#':{
+                    System.out.println("Press : " + telButtons.getTelButtonSharp());
+                    callNumber += telButtons.getTelButtonSharp();
+                    break;
+                }
+                case '*':{
+                    System.out.println("Press : " + telButtons.getTelButtonAsterisk());
+                    callNumber += telButtons.getTelButtonAsterisk();
+                    break;
+                }
+                default:{
+                    callNumber += " Not Number";
                     break;
                 }
             }
