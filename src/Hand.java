@@ -1,8 +1,8 @@
+import java.util.Scanner;
+
 public class Hand {
-
-
-
-    public void pressButton(){
+    public void pressTelButtons(){
+       TelephoneButtons telButtons = new TelephoneButtons();
 
     }
 }

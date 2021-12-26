@@ -1,11 +1,20 @@
-import java.sql.SQLOutput;
 
 public class TelephoneDisplay {
-    public void onShow(){
-        System.out.println("On Show");
+    private String display = "";
+
+    public void setOnDisplay(String display){
+        this.display = display;
     }
 
-    public void onClear(){
-        System.out.println("On Clear");
+    public void setOnDisplayClear(){
+        this.display = "";
+    }
+
+    public void onShow(){
+        System.out.println("************************");
+        System.out.println("************************");
+        System.out.println(this.display);
+        System.out.println("************************");
+        System.out.println("************************");
     }
 }

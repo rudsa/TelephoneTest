@@ -1,52 +1,62 @@
-public class TelephoneButtons {
-    private final int zero = 0;
-    private final int one = 1;
-    private final int two = 2;
-    private final int three = 3;
-    private final int four = 4;
-    private final int five = 5;
-    private final int six = 6;
-    private final int seven = 7;
-    private final int eight = 8;
-    private final int nine = 9;
+public final class TelephoneButtons {
+    private final int telButtonZero = 0;
+    private final int telButtonOne = 1;
+    private final int telButtonTwo = 2;
+    private final int telButtonThree = 3;
+    private final int telButtonFour = 4;
+    private final int telButtonFive = 5;
+    private final int telButtonSix = 6;
+    private final int telButtonSeven = 7;
+    private final int telButtonEight = 8;
+    private final int telButtonNine = 9;
+    private final char telButtonSharp = '#';
+    private final char telButtonAsterisk = '*';
 
-    private int getZero() {
-        return zero;
+    public int getTelButtonZero() {
+        return telButtonZero;
     }
 
-    private int getOne() {
-        return one;
+    public int getTelButtonOne() {
+        return telButtonOne;
     }
 
-    private int getTwo() {
-        return two;
+    public int getTelButtonTwo() {
+        return telButtonTwo;
     }
 
-    private int getThree() {
-        return three;
+    public int getTelButtonThree() {
+        return telButtonThree;
     }
 
-    private int getFour() {
-        return four;
+    public int getTelButtonFour() {
+        return telButtonFour;
     }
 
-    private int getFive() {
-        return five;
+    public int getTelButtonFive() {
+        return telButtonFive;
     }
 
-    private int getSix() {
-        return six;
+    public int getTelButtonSix() {
+        return telButtonSix;
     }
 
-    private int getSeven() {
-        return seven;
+    public int getTelButtonSeven() {
+        return telButtonSeven;
     }
 
-    private int getEight() {
-        return eight;
+    public int getTelButtonEight() {
+        return telButtonEight;
     }
 
-    private int getNine() {
-        return nine;
+    public int getTelButtonNine() {
+        return telButtonNine;
+    }
+
+    public char getTelButtonSharp() {
+        return telButtonSharp;
+    }
+
+    public char getTelButtonAsterisk() {
+        return telButtonAsterisk;
     }
 }
