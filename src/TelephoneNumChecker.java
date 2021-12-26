@@ -1,15 +1,16 @@
 public class TelephoneNumChecker {
-    private int telNumber = 0;
-
-    public void setTelNumber(int telNumber){
+    private String telNumber = "";
+    private String checkNumber = "";
+    public void setTelNumber(String telNumber){
         this.telNumber = telNumber;
     }
 
-    public int getTelNumber(){
+    public String getTelNumber(){
         return this.telNumber;
     }
 
-    private void telNumberChecker(){
+    public void telNumberChecker(){
+        this.checkNumber = getTelNumber().substring(0, 3);
 
     }
 }

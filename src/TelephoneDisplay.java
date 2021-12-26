@@ -13,7 +13,7 @@ public class TelephoneDisplay {
     public void onShow(){
         System.out.println("************************");
         System.out.println("************************");
-        System.out.println(this.display);
+        System.out.println("*******" + this.display + "*******");
         System.out.println("************************");
         System.out.println("************************");
     }
