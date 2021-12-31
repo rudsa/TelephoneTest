@@ -9,13 +9,11 @@ public class Telephone {
         if(telNumChecker.telAreaNumberChecker()){
             Hand hand = new Hand();
             hand.pressTelButtons(telNumChecker.getTelNumber());
-
             TelephoneDisplay telDisplay = new TelephoneDisplay();
             telDisplay.setOnDisplay(hand.getCallNumber());
             telDisplay.onShow();
         }else{
             System.out.println("Please fill out the phone form");
         }
-
     }
 }
