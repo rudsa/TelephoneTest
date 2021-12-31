@@ -13,6 +13,8 @@ public class Telephone {
             TelephoneDisplay telDisplay = new TelephoneDisplay();
             telDisplay.setOnDisplay(hand.getCallNumber());
             telDisplay.onShow();
+        }else{
+            System.out.println("Please fill out the phone form");
         }
 
     }
