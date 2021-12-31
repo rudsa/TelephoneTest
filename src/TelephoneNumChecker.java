@@ -1,5 +1,5 @@
 public class TelephoneNumChecker {
-    private boolean numChecker = true;
+    private boolean numChecker = false;
     private String telNumber = "";
     public void setTelNumber(String telNumber){
         this.telNumber = telNumber;
